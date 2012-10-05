@@ -1,4 +1,4 @@
-# Foundation Icons 2 on SASS for Rails
+# Foundation Icon Fonts 2 on SASS for Rails
 
 
 ## How to Install 
@@ -19,6 +19,7 @@ Then in your `app/assets/stylesheets/application.css`:
 
 ## License
 
-Fonts and SCSS are created by ZURB licensed under MIT. 
+[Foundation Icon Fonts 2](http://www.zurb.com/playground/foundation-icons) is
+created by [ZURB](http://http://www.zurb.com/) and licensed under MIT. 
 
 Rest of the code is also under MIT.
