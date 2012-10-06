@@ -16,6 +16,13 @@ Then in your `app/assets/stylesheets/application.css`:
 
     @import 'foundation-icons';
 
+Now, you can use it as follows:
+
+    <i class="general foundicon-[icon]"></i>
+    <i class="general-enclosed foundicon-[icon]"></i>
+    <i class="social foundicon-[icon]"></i>
+    <i class="accessibility foundicon-[icon]"></i>
+
 
 ## License
 
