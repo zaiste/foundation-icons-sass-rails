@@ -12,7 +12,7 @@ Add `foundation-icons-sass-rails` gem to the `assets` group in your `Gemfile`:
       gem 'foundation-icons-sass-rails'
     end
 
-Then in your `app/assets/stylesheets/application.css`:
+Then rename your `app/assets/stylesheets/application.css` to `app/assets/stylesheets/application.css.scss` and add:
 
     @import 'foundation-icons';
 
