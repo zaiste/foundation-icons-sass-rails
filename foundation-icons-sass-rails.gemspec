@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Zaiste!"]
   s.email       = ["oh@zaiste.net"]
   s.homepage    = "https://github.com/zaiste/foundation-icons-sass-rails"
-  s.summary     = %q{Foundation Icons 2 on SASS for Rails}
-  s.description = %q{Foundation Icons 2 on SASS for Rails}
+  s.summary     = %q{Foundation Icons on SASS for Rails}
+  s.description = %q{Foundation Icons on SASS for Rails}
 
   s.rubyforge_project = "foundation-icons-sass-rails"
 
