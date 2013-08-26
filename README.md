@@ -1,7 +1,8 @@
-# Foundation Icon Fonts 2 on SASS for Rails
+# Foundation Icon Fonts on SASS for Rails
 
+Current version: [Foundation Icon Fonts 3][3].
 
-## How to Install 
+## How to Install
 
 Add `foundation-icons-sass-rails` gem to the `assets` group in your `Gemfile`:
 
@@ -18,6 +19,13 @@ Then rename your `app/assets/stylesheets/application.css` to `app/assets/stylesh
 
 Now, you can use it as follows:
 
+    <i class="fi-[icon]"></i>
+
+
+## Version 2.x
+
+For [Foundation Icon Fonts 2][2] use `v2.x` branch.
+
     <i class="general foundicon-[icon]"></i>
     <i class="general-enclosed foundicon-[icon]"></i>
     <i class="social foundicon-[icon]"></i>
@@ -26,7 +34,11 @@ Now, you can use it as follows:
 
 ## License
 
-[Foundation Icon Fonts 2](http://www.zurb.com/playground/foundation-icons) is
-created by [ZURB](http://http://www.zurb.com/) and licensed under MIT. 
+[Foundation Icon Fonts 3][3] and [Foundation Icon Fonts 2][2] are created by
+[ZURB][1] and licensed under MIT.
 
 Rest of the code is also under MIT.
+
+[1]: http://http://www.zurb.com/
+[2]: http://www.zurb.com/playground/foundation-icons
+[3]: http://zurb.com/playground/foundation-icon-fonts-3
