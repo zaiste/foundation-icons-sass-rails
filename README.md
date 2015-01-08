@@ -4,14 +4,25 @@ Current version: [Foundation Icon Fonts 3][3].
 
 ## How to Install
 
-Add `foundation-icons-sass-rails` gem to the `assets` group in your `Gemfile`:
+### For rails versions 4 and up
+```ruby
+    gem 'sass-rails', "  ~> x.x.x"
+    gem 'coffee-rails', "~> x.x.x"
+    gem 'uglifier'
+    gem 'foundation-icons-sass-rails'
+```
+    
+### For rails versions < 4
 
+Add `foundation-icons-sass-rails` gem to the `assets` group in your `Gemfile`:
+```ruby
     group :assets do
       gem 'sass-rails', "  ~> x.x.x"
       gem 'coffee-rails', "~> x.x.x"
       gem 'uglifier'
       gem 'foundation-icons-sass-rails'
     end
+```
 
 Then rename your `app/assets/stylesheets/application.css` to `app/assets/stylesheets/application.css.scss` and add:
 
